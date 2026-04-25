@@ -1,6 +1,6 @@
 module github.com/ngoduykhanh/wireguard-ui
 
-go 1.21
+go 1.26
 
 require (
 	github.com/NicoNex/echotron/v3 v3.27.0
@@ -17,7 +17,6 @@ require (
 	github.com/xhit/go-simple-mail/v2 v2.16.0
 	golang.org/x/crypto v0.17.0
 	golang.org/x/mod v0.14.0
-	//golang.zx2c4.com/wireguard v0.0.20200121 // indirect
 	golang.zx2c4.com/wireguard/wgctrl v0.0.0-20210803171230-4253848d036c
 	gopkg.in/go-playground/validator.v9 v9.31.0
 )
